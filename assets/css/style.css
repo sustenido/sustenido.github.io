@@ -1296,6 +1296,11 @@ footer .credits a {
   color: #fff;
 }
 
-.badges {
-  text-align: center;
+.badges-container {
+  display: flex;
+}
+
+.badges-container img {
+  width: 25%;
+  padding-left: 4px;
 }
