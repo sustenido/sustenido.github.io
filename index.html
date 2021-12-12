@@ -782,7 +782,7 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>Sustenido Limited © 2021</strong>. All Rights Reserved</p>
+            <p class="copyright">&copy; Copyright <strong>Sustenido Limited © <span id="year"></span></strong>. All Rights Reserved</p>
             <div class="credits">
               <!--
               All the links in the footer should remain intact.
@@ -811,6 +811,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
 
 </body>
 
